@@ -4,7 +4,7 @@
   <title><![CDATA[PostMarshall blog]]></title>
   <link href="http://postmarshall.github.com/atom.xml" rel="self"/>
   <link href="http://postmarshall.github.com/"/>
-  <updated>2012-11-22T19:20:55+01:00</updated>
+  <updated>2012-11-26T00:02:05+01:00</updated>
   <id>http://postmarshall.github.com/</id>
   <author>
     <name><![CDATA[Jelle Helsen]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Why Google Apps mail groups don't work]]></title>
+    <link href="http://postmarshall.github.com/blog/2012/11/25/why-google-apps-mail-groups-dont-work/"/>
+    <updated>2012-11-25T22:26:00+01:00</updated>
+    <id>http://postmarshall.github.com/blog/2012/11/25/why-google-apps-mail-groups-dont-work</id>
+    <content type="html"><![CDATA[<p>I found a good tutorial today on how to use group on a Google Apps account. You can find it <a href="http://nathalielussier.com/blog/technology-blog/google-apps-email-tutorial-for-team-members-or-virtual-assistants">here</a>. This tutorial boils down to the following:</p>
+
+<ol>
+<li>Create a group and give it an email address</li>
+<li>Select the people that are part of the group</li>
+<li>Set custom privileges on the group so it can receive mail from outside your organization</li>
+<li>login to your email account</li>
+<li>add a from address to your account</li>
+<li>confirm that from address</li>
+<li>setup the “Reply from the same address the message was sent to” option in your account</li>
+<li>repeat step 4 to 7 for each member of the group</li>
+</ol>
+
+
+<p>This is way to complicated. If you need to create a group with 5 members this will take 23 steps! On top of that, how good this works, once you have it set up, depends mainly on the discipline of your team. With every mail you send you have to make sure you BCC the group to keep everyone in the loop. At one point someone will forget. There should be a simpler way to do this.</p>
+
+<h4>Enter PostMarshall</h4>
+
+<p>PostMarshall has real <em>shared</em> mailboxes. This means mails sent to your team don&#8217;t clutter up your personal inbox. Emails sent from the teams mailbox will be stored in the teams mailbox so all team members are kept in the loop. Creating a new shared mailbox is a matter of 4 simple steps:</p>
+
+<ol>
+<li>Click the &#8220;+&#8221; button</li>
+<li>Enter the name of the mailbox</li>
+<li>Select the people who should access the mailbox</li>
+<li>Click &#8220;Create&#8221;</li>
+</ol>
+
+
+<p>This will create a shared mailbox and add it to each members mailbox list. There all team members can follow up on these mails. All replies are automatically sent from the correct email address. The replies itself will be stored next to the original mail so everyone can see the complete thread. No more clutter in your personal inbox. No more emails falling through the cracks.</p>
+
+<p>PostMarshall is all about making life easier for teams using email. Interested? Sign up <a href="http://www.postmarshall.com">here</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Handling email as a team]]></title>
